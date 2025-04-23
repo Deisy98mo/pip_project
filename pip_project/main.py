@@ -2,7 +2,7 @@ import argparse
 
 
 def clone_template(project_name, base):
-    print(project_name, base)
+    print(project_name, base, "uv confirmado para comando")
 
 
 def main():
@@ -13,7 +13,3 @@ def main():
     args = parser.parse_args()
 
     clone_template(args.project_name, args.base)
-
-
-if __name__ == "__main__":
-    main()

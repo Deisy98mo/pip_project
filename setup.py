@@ -11,5 +11,5 @@ setup(
         'console_scripts': [
             'generator = pip_project.main:main',  # Esto asocia el comando 'mi_comando' a la función `main` de `main.py`
         ],
-    },
+    }
 )

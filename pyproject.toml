@@ -11,4 +11,4 @@ requires-python = ">=3.10"
 dependencies = []
 
 [project.scripts]
-generator = "pip_project.main:main"
+generator = "comando.main:main"

@@ -8,7 +8,6 @@ version = "0.1.0"
 description = "Comando para generar proyectos ZTech"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
 
 [project.scripts]
 generator = "comando.main:main"
